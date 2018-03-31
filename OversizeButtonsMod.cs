@@ -13,9 +13,9 @@ public class OversizeButtons : Mod
 
     public override void BeforePatch()
     {
-        ComponentRegistry.CreateNew("LargePanelButton", "Large Panel Button", CreatePanelButtonOfSize(3, 2));
-        ComponentRegistry.CreateNew("GiantPanelButton", "Giant Panel Button", CreatePanelButtonOfSize(3, 3));
-        ComponentRegistry.CreateNew("EnormousPanelButton", "Enormous Panel Button", CreatePanelButtonOfSize(15, 2));
+        ComponentRegistry.CreateNew(this, "LargePanelButton", "Large Panel Button", CreatePanelButtonOfSize(3, 2));
+        ComponentRegistry.CreateNew(this, "GiantPanelButton", "Giant Panel Button", CreatePanelButtonOfSize(3, 3));
+        ComponentRegistry.CreateNew(this, "EnormousPanelButton", "Enormous Panel Button", CreatePanelButtonOfSize(15, 2));
         
         // the world is not ready
         // ComponentRegistry.CreateNew("CollosalPanelButton", "Collosal Panel Button", CreatePanelButtonOfSize(51, 51));

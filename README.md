@@ -1,4 +1,4 @@
-# Oversize-Buttons
+# Oversize Buttons
 A mod for The Ultimate Nerd Game using the PiTUNG framework. Adds some larger buttons.
 
 To use:  
